@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84578b6c-615e-4e37-a108-b8c035d56f6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gittgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/SECURITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/read.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/raw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +37,34 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +74,22 @@
       <option name="presentableId" value="Default" />
       <updated>1652021806324</updated>
       <workItem from="1652021807433" duration="150000" />
-      <workItem from="1652022051027" duration="7747000" />
+      <workItem from="1652022051027" duration="7936000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
