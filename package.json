@@ -1,10 +1,13 @@
 {
   "name": "back-in-partfolio",
+  "homepage": "https://isefrog38.github.io/Back_from_ContactPortfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Pashka",
   "license": "ISC",
@@ -12,6 +15,7 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "gh-pages": "^3.2.3",
     "nodemailer": "^6.7.5",
     "nodemailer-smtp-transport": "^2.7.4"
   }
